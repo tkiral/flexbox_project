@@ -1,17 +1,15 @@
-body {
+* {
   margin: 0px;
-  padding-left: 10%;
-  padding-right: 10%;
 }
 
 h1 {
-  margin: 0px;
   flex: 0 0 200px;
   font-size: 24px;
   color: #F9FAF8;
 }
 
 header,footer {
+  padding: 22px 10%;
   background-color: #1F2937;
   color: white;
   display: flex;
@@ -27,7 +25,6 @@ footer {
 
 ul {
   list-style-type: none;
-  margin: 0;
   padding: 0;
   display: flex;
   gap: 18px;
@@ -40,4 +37,140 @@ li {
 a {
   color: white;
   text-decoration: none;
+}
+
+button {
+  background-color: #3882F6;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  color: #F9FAF8;
+  padding: 6px 32px;
+}
+
+#awesomeimg {
+  height: 220px;
+  width: 220px;
+  background-color: slategrey;
+  color: white;
+  flex: 1;
+}
+
+.awesomeheader {
+  color: #F9FAF8;
+  font-size: 48px;
+  font-weight: extra-bold;
+}
+
+.randominfoheader {
+  font-weight: extra-bold;
+  font-size: 36px;
+  color: #1F2937;
+}
+
+.awesometext {
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+.awesomewebsite {
+  background-color: #1F2937;
+  color: white;
+  padding: 82px 8%;
+  display: flex;
+  gap: 22px;
+}
+
+.awesomechild {
+  display: flex;
+  gap: 12px;
+  flex-direction: column;
+  align-items: flex-start;
+  flex: 1;
+}
+
+.somerandominfo {
+  padding: 42px 12%;
+  display: flex;
+  flex-direction: column;
+  gap: 42px;
+  align-items: center;
+}
+
+.pictures {
+  display: flex;
+  border-radius: 8px;
+  gap: 12px;
+  flex: 0 0 160px;
+}
+
+.pic {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: center;
+  border-radius: 8px;
+}
+
+.randompics {
+  height: 80px;
+  width: 80px;
+  flex: 0 0 auto;
+  border-color: inherit;
+  background-color: white;
+  border-radius: 8px;
+}
+
+.randomtext {
+  flex: 0 0 auto;
+  align-self: center;
+}
+
+.inspiringquote {
+  background-color: #E5E7EB;
+  padding: 82px 16%;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.calltoaction {
+  margin: 100px 8%;
+  padding: 48px 6%;
+  border-radius: 8px;
+  background-color: #3882F6;
+  color: #F9FAF8;
+  display: flex;
+  justify-content: space-between;
+}
+
+.calltoactionbutton {
+  flex: 0 0 auto;
+  border-color: #F9FAF8;
+  padding: 0px 64px;
+  font-size: larger;
+  border-radius: 8px;
+  border-style: solid;
+}
+
+.calltoactiontext {
+  flex: 0 1 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+#amazingquote {
+  font-weight: light;
+  font-size: 36px;
+  color: #1F2937;
+  font-style: italic;
+}
+
+#theamazingthor {
+  align-self: flex-end;
+  color: #1F2937;
+  font-size: 24px;
+  font-weight: bold;
 }
