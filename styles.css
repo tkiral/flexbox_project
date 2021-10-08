@@ -1,0 +1,43 @@
+body {
+  margin: 0px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+h1 {
+  margin: 0px;
+  flex: 0 0 200px;
+  font-size: 24px;
+  color: #F9FAF8;
+}
+
+header,footer {
+  background-color: #1F2937;
+  color: white;
+  display: flex;
+}
+
+header {
+  justify-content: space-between;
+}
+
+footer {
+  justify-content: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 18px;
+}
+
+li {
+  flex: 0 0 auto;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
